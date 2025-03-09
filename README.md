@@ -50,7 +50,7 @@ contains and returns an object nested in the following manner:
   - `"blocks"`
   - `"slamDunks"`
 
-Use the following data to populate your `gameObject` as outlined above.
+:Use the following data to populate your `gameObject` as outlined above.
 
 Home Team:
 
@@ -78,7 +78,7 @@ Away Team:
 
 |      Stat       |    Info     |      Info      |     Info     |    Info    |      Info       |
 | :-------------: | :---------: | :------------: | :----------: | :--------: | :-------------: |
-| **Player Name** | Jeff Adrien | Bismak Biyombo | DeSagna Diop | Ben Gordon | Brendan Haywood |
+| **Player Name** |              | Bismak Biyombo | DeSagna Diop | Ben Gordon | Brendan Haywood |
 |   **Number**    |      4      |       0        |      2       |     8      |       33        |
 |    **Shoe**     |     18      |       16       |      14      |     15     |       15        |
 |   **Points**    |     10      |       12       |      24      |     33     |        6        |
@@ -88,7 +88,7 @@ Away Team:
 |   **Blocks**    |      7      |       15       |      5       |     1      |        5        |
 | **Slam Dunks**  |      2      |       10       |      5       |     0      |       12        |
 
-To check your work, call your `gameObject` function and log its output:
+To check your work, call your `gameObject` function and log its output
 
 ```js
 console.log(gameObject());
@@ -386,12 +386,12 @@ playerStats("Alan Anderson")
 
 ### Bonus Questions
 
-Define functions to return the answer to the following questions:
+
+define functions to return the answer to the following questions:
 
 1. Which player has the most points? Call the function `mostPointsScored`.
 2. Which team has the most points? Call the function `winningTeam`.
 3. Which player has the longest name? Call the function `playerWithLongestName`.
-
 ### Super Bonus
 
 1. Write a function that returns true if the player with the longest name had
